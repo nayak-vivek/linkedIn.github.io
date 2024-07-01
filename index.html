@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation Bar -->
+     <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a4758c2c-549c-49d7-82d5-f909549a631e_linkedin-webpage-img.zip.31e\images\logo.png"></a>
+            <div class="search-box">
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\ac90cec1-21d6-4f9b-b0c7-7d44d1cb6aba_linkedin-webpage-img.zip.aba\images\search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\37c88fb6-6243-468c-a7db-de47e242881a_linkedin-webpage-img.zip.81a\images\home.png" ><span>Home</span></a></li>
+                <li><a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\eac948b4-04f3-4727-8fff-7a2a750d5ad9_linkedin-webpage-img.zip.ad9\images\network.png" ><span>My network</span></a></li>
+                <li><a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\6eb74ce4-1e44-4ead-b1bc-451975c10dc9_linkedin-webpage-img.zip.dc9\images\jobs.png" ><span>jobs</span></a></li>
+                <li><a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\98fe42de-a289-4299-80e4-57010fc06f86_linkedin-webpage-img.zip.f86\images\message.png" ><span>messaging</span></a></li>
+                <li><a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\55c15d35-0a00-4acb-86d7-4d314a1af668_linkedin-webpage-img.zip.668\images\notification.png" ><span>notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+            <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\4194e746-eb37-4348-ba5f-9832f2337f71_linkedin-webpage-img.zip.f71\images\user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+<!-- ---------------------- Profile-Drop-Down-Menu ---------------------- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\145eee89-7ec9-4984-802f-16c177ab6542_linkedin-webpage-img.zip.542\images\user-1.png">
+                    <div>
+                        <h3>Vivek Nayak</h3>
+                        <a href="#">See your Profile</a>
+                    </div>
+                </div>
+                <hr />
+
+                <a href="#" class="profile-menu-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\3107bd28-af7d-4fbe-bd5d-fd8fe406730e_linkedin-webpage-img.zip.30e\images\feedback.png">
+                    <p>Give feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\fadc6e1f-0c8f-4bcb-9688-700f0c694b7c_linkedin-webpage-img.zip.b7c\images\setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\e0995096-a85e-4ab8-b21b-1f7cda73ec4d_linkedin-webpage-img.zip.c4d\images\help.png">
+                    <p>Help & Suppport</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\8999abc6-8700-4e3e-9b8e-1653e8fffc75_linkedin-webpage-img.zip.c75\images\display.png">
+                    <p>Display & Accessebility</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\3253757a-f1e0-43ea-be17-042b6f7796ec_linkedin-webpage-img.zip.6ec\images\logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+     </nav>
+<!-- ----------------- navbar close ------------------------ -->
+     <!-- ----------------- left Sidebar ------------------------ -->
+
+     <div class="container">
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\2305703e-86fa-4438-841b-60a8dddf79a4_linkedin-webpage-img.zip.9a4\images\cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\09e0f2fa-758f-40b3-9f86-457bd5d03fe5_linkedin-webpage-img.zip.fe5\images\user-1.png">
+                <h1>Vivek Nayak</h1>
+                <h3>Web Developer at Microsoft</h3>
+                <ul>
+                    <li>your profile views<span>  52 </span></li>
+                    <li>your post views<span>  810 </span></li>
+                    <li>your connections<span>  205 </span></li>
+                </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\c06bca91-9057-4062-b7af-e12c963eebc1_linkedin-webpage-img.zip.bc1\images\items.png">My items</a>
+                    <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\cf016687-82f2-41ad-a2c4-88cd42e462f4_linkedin-webpage-img.zip.2f4\images\premium.png">Try To Free Premiumm</a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\dad0a6cf-de48-4269-a6ee-0c53ae886d86_linkedin-webpage-img.zip.d86\images\recent.png">Web Developement</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\dad0a6cf-de48-4269-a6ee-0c53ae886d86_linkedin-webpage-img.zip.d86\images\recent.png">User Interface</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\dad0a6cf-de48-4269-a6ee-0c53ae886d86_linkedin-webpage-img.zip.d86\images\recent.png">Online Learning</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\dad0a6cf-de48-4269-a6ee-0c53ae886d86_linkedin-webpage-img.zip.d86\images\recent.png">Learn Online</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\dad0a6cf-de48-4269-a6ee-0c53ae886d86_linkedin-webpage-img.zip.d86\images\recent.png">Code Better</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\dad0a6cf-de48-4269-a6ee-0c53ae886d86_linkedin-webpage-img.zip.d86\images\recent.png">Group Learning</a>
+
+                <h3>GROUPS</h3>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\5c91575e-e06e-41bd-afe6-6d6f421159fc_linkedin-webpage-img.zip.9fc\images\group.png">Web Desing Group</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\5c91575e-e06e-41bd-afe6-6d6f421159fc_linkedin-webpage-img.zip.9fc\images\group.png">HTML & CSS Learner</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\5c91575e-e06e-41bd-afe6-6d6f421159fc_linkedin-webpage-img.zip.9fc\images\group.png">Python & JavaScript Group</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\5c91575e-e06e-41bd-afe6-6d6f421159fc_linkedin-webpage-img.zip.9fc\images\group.png">Learn Coding Online</a>
+
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bb5a4143-c2d7-41f6-badc-b9b955a311d9_linkedin-webpage-img.zip.1d9\images\hashtag.png">Web Developement</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bb5a4143-c2d7-41f6-badc-b9b955a311d9_linkedin-webpage-img.zip.1d9\images\hashtag.png">User Interface</a>
+                <a href="#"><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bb5a4143-c2d7-41f6-badc-b9b955a311d9_linkedin-webpage-img.zip.1d9\images\hashtag.png">Learn Coding Online</a>
+
+                <div class="discover-more-link">
+                    <a href="#">Discover More</a>
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- ----------------------main Content------------------------------ -->
+
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\22f96aeb-0320-477f-a182-80ff20920fd2_linkedin-webpage-img.zip.fd2\images\user-1.png" >
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-input-link">
+                    <li><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\22208822-a999-4a32-95fe-9acc31458b41_linkedin-webpage-img.zip.b41\images\photo.png">Photo</li>
+                    <li><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\144b1bb2-21a2-478e-b651-19dc12580735_linkedin-webpage-img.zip.735\images\video.png">Video</li>
+                    <li><img src="C:\Users\Vivek Nayak\AppData\Local\Temp\be1bf074-acae-46be-a801-5597ae21894e_linkedin-webpage-img.zip.94e\images\event.png">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr />
+                <p>Sort by: <span>top <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\3a0f990e-cf75-4995-832a-ba705407bc7f_linkedin-webpage-img.zip.c7f\images\down-arrow.png"></span></p>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\cc5a4a31-ed27-4b27-a82a-7200f7110836_linkedin-webpage-img.zip.836\images\user-3.png">
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO of Gallelio Group | Angel Investor</small>
+                        <small>2 hours Ago</small>
+                    </div>
+                </div>
+                <p>The Success Of Every Website is depend on Search Engine Optimization and 
+                Digital Marketing Strategy If you are on first Page of all major Search Engine 
+                then you are ahead among your competitors </p>
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\01adfc1e-b309-45c9-9da9-a709dda4fbc6_linkedin-webpage-img.zip.bc6\images\post-image-1.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\4c6e3a50-737e-4a62-b9bf-c7eea0c2075b_linkedin-webpage-img.zip.75b\images\thumbsup.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a9b89106-30a9-406c-b323-be21eb255ba0_linkedin-webpage-img.zip.ba0\images\love.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bf1947b9-e050-4d09-900d-84f528591a34_linkedin-webpage-img.zip.a34\images\clap.png">
+                        <span class="liked-users">Shivam Dagur and Amit Sharma & many More 75 Others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                   <div>
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\b7672d3b-2b19-4008-a2b7-15a3c328eb83_linkedin-webpage-img.zip.b83\images\user-1.png" class="post-activity-user-icon">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\32593190-24a7-4d4a-83f1-44ae897dad49_linkedin-webpage-img.zip.d49\images\down-arrow.png" class="post-activity-arrow-icon">
+
+                   </div>
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\e5450525-a366-4b25-bb96-3827a6b29815_linkedin-webpage-img.zip.815\images\like.png">
+                    <span>Like</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a3e06b2b-1a86-4c43-9116-29809458584c_linkedin-webpage-img.zip.84c\images\comment.png">
+                    <span>Comment</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\401c7c75-c91d-4157-b4e8-de7a467bc3b8_linkedin-webpage-img.zip.3b8\images\share.png">
+                    <span>Share</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\75a8d280-773c-477f-acca-8d7456b3f2f6_linkedin-webpage-img.zip.2f6\images\send.png">
+                    <span>Send</span>
+                   </div>
+        
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\6714fe07-72c6-4d3e-9a14-4c6fbb401749_linkedin-webpage-img.zip.749\images\user-4.png">
+                    <div>
+                        <h1>Clarence George</h1>
+                        <small>Founder and CEO of Gallelio Group | Angel Investor</small>
+                        <small>2 hours Ago</small>
+                    </div>
+                </div>
+                <p>The Success Of Every Website is depend on Search Engine Optimization and 
+                Digital Marketing Strategy If you are on first Page of all major Search Engine 
+                then you are ahead among your competitors </p>
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\28465b32-0690-49b0-b2f8-5b01c0be1202_linkedin-webpage-img.zip.202\images\post-image-2.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\4c6e3a50-737e-4a62-b9bf-c7eea0c2075b_linkedin-webpage-img.zip.75b\images\thumbsup.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a9b89106-30a9-406c-b323-be21eb255ba0_linkedin-webpage-img.zip.ba0\images\love.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bf1947b9-e050-4d09-900d-84f528591a34_linkedin-webpage-img.zip.a34\images\clap.png">
+                        <span class="liked-users">Shivam Dagur and Amit Sharma & many More 75 Others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                   <div>
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\b7672d3b-2b19-4008-a2b7-15a3c328eb83_linkedin-webpage-img.zip.b83\images\user-1.png" class="post-activity-user-icon">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\32593190-24a7-4d4a-83f1-44ae897dad49_linkedin-webpage-img.zip.d49\images\down-arrow.png" class="post-activity-arrow-icon">
+
+                   </div>
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\e5450525-a366-4b25-bb96-3827a6b29815_linkedin-webpage-img.zip.815\images\like.png">
+                    <span>Like</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a3e06b2b-1a86-4c43-9116-29809458584c_linkedin-webpage-img.zip.84c\images\comment.png">
+                    <span>Comment</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\401c7c75-c91d-4157-b4e8-de7a467bc3b8_linkedin-webpage-img.zip.3b8\images\share.png">
+                    <span>Share</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\75a8d280-773c-477f-acca-8d7456b3f2f6_linkedin-webpage-img.zip.2f6\images\send.png">
+                    <span>Send</span>
+                   </div>
+        
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\eee824b9-9af3-44ba-bb67-32ec20e9ce3d_linkedin-webpage-img.zip.e3d\images\user-5.png">
+                    <div>
+                        <h1>Clarence George</h1>
+                        <small>Founder and CEO of Gallelio Group | Angel Investor</small>
+                        <small>2 hours Ago</small>
+                    </div>
+                </div>
+                <p>The Success Of Every Website is depend on Search Engine Optimization and 
+                Digital Marketing Strategy If you are on first Page of all major Search Engine 
+                then you are ahead among your competitors </p>
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\46d9eb74-e547-429c-bbe4-f633320f635f_linkedin-webpage-img.zip.35f\images\post-image-3.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\4c6e3a50-737e-4a62-b9bf-c7eea0c2075b_linkedin-webpage-img.zip.75b\images\thumbsup.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a9b89106-30a9-406c-b323-be21eb255ba0_linkedin-webpage-img.zip.ba0\images\love.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bf1947b9-e050-4d09-900d-84f528591a34_linkedin-webpage-img.zip.a34\images\clap.png">
+                        <span class="liked-users">Shivam Dagur and Amit Sharma & many More 75 Others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                   <div>
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\b7672d3b-2b19-4008-a2b7-15a3c328eb83_linkedin-webpage-img.zip.b83\images\user-1.png" class="post-activity-user-icon">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\32593190-24a7-4d4a-83f1-44ae897dad49_linkedin-webpage-img.zip.d49\images\down-arrow.png" class="post-activity-arrow-icon">
+
+                   </div>
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\e5450525-a366-4b25-bb96-3827a6b29815_linkedin-webpage-img.zip.815\images\like.png">
+                    <span>Like</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a3e06b2b-1a86-4c43-9116-29809458584c_linkedin-webpage-img.zip.84c\images\comment.png">
+                    <span>Comment</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\401c7c75-c91d-4157-b4e8-de7a467bc3b8_linkedin-webpage-img.zip.3b8\images\share.png">
+                    <span>Share</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\75a8d280-773c-477f-acca-8d7456b3f2f6_linkedin-webpage-img.zip.2f6\images\send.png">
+                    <span>Send</span>
+                   </div>
+        
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\ce7cfe8c-7bbe-4f1f-a38c-92f94dfd2880_linkedin-webpage-img.zip.880\images\user-2.png">
+                    <div>
+                        <h1>Clarence George</h1>
+                        <small>Founder and CEO of Gallelio Group | Angel Investor</small>
+                        <small>2 hours Ago</small>
+                    </div>
+                </div>
+                <p>The Success Of Every Website is depend on Search Engine Optimization and 
+                Digital Marketing Strategy If you are on first Page of all major Search Engine 
+                then you are ahead among your competitors </p>
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\8bb3abb1-030c-4fad-9e8e-110181f5e426_linkedin-webpage-img.zip.426\images\post-image-4.png" width="100%">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\4c6e3a50-737e-4a62-b9bf-c7eea0c2075b_linkedin-webpage-img.zip.75b\images\thumbsup.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a9b89106-30a9-406c-b323-be21eb255ba0_linkedin-webpage-img.zip.ba0\images\love.png">
+                        <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\bf1947b9-e050-4d09-900d-84f528591a34_linkedin-webpage-img.zip.a34\images\clap.png">
+                        <span class="liked-users">Shivam Dagur and Amit Sharma & many More 75 Others</span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+
+                <div class="post-activity">
+                   <div>
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\b7672d3b-2b19-4008-a2b7-15a3c328eb83_linkedin-webpage-img.zip.b83\images\user-1.png" class="post-activity-user-icon">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\32593190-24a7-4d4a-83f1-44ae897dad49_linkedin-webpage-img.zip.d49\images\down-arrow.png" class="post-activity-arrow-icon">
+
+                   </div>
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\e5450525-a366-4b25-bb96-3827a6b29815_linkedin-webpage-img.zip.815\images\like.png">
+                    <span>Like</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\a3e06b2b-1a86-4c43-9116-29809458584c_linkedin-webpage-img.zip.84c\images\comment.png">
+                    <span>Comment</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\401c7c75-c91d-4157-b4e8-de7a467bc3b8_linkedin-webpage-img.zip.3b8\images\share.png">
+                    <span>Share</span>
+                   </div>
+
+                   <div class="post-activity-link">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\75a8d280-773c-477f-acca-8d7456b3f2f6_linkedin-webpage-img.zip.2f6\images\send.png">
+                    <span>Send</span>
+                   </div>
+        
+                </div>
+            </div>
+
+        </div>  
+        <!-- ----------------------right Sidebar------------------------------ -->
+
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\0b325f84-b20a-4c86-995d-666ab1b758b0_linkedin-webpage-img.zip.8b0\images\more.png" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">High Demand For Skilled Manpower</a>
+                <span>1d ago &middot; 15,230 readers</span>
+
+                <a href="#">Carriers growing Horizontally too</a>
+                <span>19h ago &middot; 10,369 readers</span>
+
+                <a href="#">less work visa for US, more for UK</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">More hiring = hire Confidence?</a>
+                <span>18h ago &middot; 10,321 readers</span>
+                
+                
+                <a href="#">gautam's adani is the world third richest person</a>
+                <span>12h ago &middot; 12,354 readers</span>
+
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of Web Design</p>
+                <div>
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\670aca71-4311-4e74-8a95-8232f7a85d95_linkedin-webpage-img.zip.d95\images\user-1.png">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\86e93405-ed58-4913-934e-429a0710565c_linkedin-webpage-img.zip.65c\images\mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get The App</a>
+                <a href="#">More</a>
+
+                <div class="copy-right-msg">
+                    <img src="C:\Users\Vivek Nayak\AppData\Local\Temp\c038a6ff-635f-4076-83b9-984384922fc0_linkedin-webpage-img.zip.fc0\images\logo.png">
+                    <p>Linkedup &copy; 2024. All Right Reserved</p>
+                </div>
+
+            </div>
+        </div>
+
+     </div>
+
+     <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+     </script>
+
+</body>
+</html>
